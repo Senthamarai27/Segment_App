@@ -1,0 +1,94 @@
+/* Container to hold everything */
+.container {
+  position: relative;
+  height: 100vh;
+}
+
+/* Button to Save Segment, positioned to the left top */
+.save-segment-btn {
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  transform: translateY(-50%);
+  padding: 10px 20px;
+  background-color: #eceff2;
+  color: black;
+  /* border: none; */
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Style for side window */
+.side-window {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #f4f4f4;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  overflow-y: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Close button for side window */
+.close-btn {
+  position: absolute;
+  padding:0px 10px;
+  top: 10px;
+  right: 10px;
+  background: red;
+  border: none;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+/* Popup content inside the side window */
+.popup{
+  padding:10%;
+}
+.popup input,
+.popup select {
+  display: block;
+  width: 80%;
+  margin-bottom: 30px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.popup a {
+  
+  text-decoration: underline green;
+  color: green;
+  cursor: pointer;  
+}
+.popup button{
+  display: inline-block;
+  width:30%;
+  /* background-color: green; */
+  /* color:white; */
+  /* border:none; */
+  border-radius: 5px;
+  cursor:pointer;
+  margin-top:50px;
+  padding:10px;
+}
+.save-btn{
+  background-color: green;;
+  color:white;
+  margin-right:15px;
+}
+.cancel-btn{
+  background-color: rgb(237, 228, 228);
+  /* border:0px; */
+  color:red;
+}
+
+.select-box {
+  
+  margin-bottom: 10px;
+  /* width:80%; */
+}
+
